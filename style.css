@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("bgr.jpg");
+  height: 80%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn1{
+  font-weight: bold;
+  margin-left: 950px;
+  padding: 15px;
+  color: white;
+  border: 1px solid black;
+  width: 120px;
+  margin-top: 250px;
+  background-color: #2a57ec;
+}
+
+.btn1:hover {
+  box-shadow: 10px 10px 10px 10px rgba(124, 198, 241, 0.24), 10px 10px 10px 10px rgba(38, 120, 243, 0.19);
+}
+.btn2{
+  font-weight: bold;
+  margin-left: 250px;
+  padding: 15px;
+  color: #2a57ec;
+  border: 1px solid black;
+  width: 120px;
+  margin-top: 140px;
+}
+
+.btn2:hover {
+  box-shadow: 10px 0px 10px 0px rgba(153, 212, 243, 0.295), 10px 0px 10px 10px rgba(174, 222, 250, 0.315);
+}
