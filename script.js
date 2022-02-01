@@ -8,7 +8,7 @@ function speakText2(){
   responsiveVoice.speak(text);
   alert("You are successfully logged into your account!")
 }
-const api_key=process.env.API_KEY;
+//console.log("ok");
 var k="muskanthakur26a@gmail.com";
 const settings = {
 	"async": true,
@@ -16,7 +16,7 @@ const settings = {
 	"url": "https://api.usebouncer.com/v1/email/verify?email="+k,
 	"method": "GET",
 	"headers": {
-		"x-api-key": api_key
+		"x-api-key": "uVjCp7OY4vhyiZRYfk7XWEpuWBjvMyWLmDGUiX9H"
 	}
 };
 
